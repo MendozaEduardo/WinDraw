@@ -1,0 +1,19 @@
+{
+  "name": "winDrawScreen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "electron": "^18.2.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

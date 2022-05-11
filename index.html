@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Windows Annotation Tool</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <!-- <button class="animated hover-button" id="start-drawing">
+            <span>Activate Annotation</span>
+        </button> -->
+        
+        <div id="drawing-cover"></div>
+        <div id="drawing-layer"></div>
+        <div id="drawing-box">
+            <div class="tools">
+                <button data-tool="freeHand" data-current="true">
+                    <span>Pen</span>
+                </button>
+                <button data-tool="rectangle">
+                    <span>Rectangle</span>
+                </button>
+                <!-- <button data-tool="eraser">
+                    <span>Eraser</span>
+                </button> -->
+            </div>
+            
+            <div class="colors">
+                <div data-color="white" data-rcolor="white" data-current="true"></div>
+                <div data-color="black" data-rcolor="#000000"></div>
+                <div data-color="red" data-rcolor="#d83030"></div>
+                <div data-color="green" data-rcolor="#30d97d"></div>
+                <div data-color="orange" data-rcolor="#ff9000"></div>
+                <div data-color="yellow" data-rcolor="f3f326"></div>
+            </div>
+            
+            <div class="close">
+                x
+            </div>
+        </div>
+        <script src="functions.js"></script>
+    </body>
+</html>
